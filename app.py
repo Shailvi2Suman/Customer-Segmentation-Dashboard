@@ -7,9 +7,11 @@ from sklearn.preprocessing import MinMaxScaler
 st.set_page_config(layout="wide")
 st.title("Customer Segmentation Dashboard")
 
+
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("your_clustered_data.csv")  # Make sure path is correct!
+    df = pd.read_csv("cleaned_clustered_data.csv")  
     return df
 
 df = load_data()
