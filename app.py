@@ -5,7 +5,10 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
 st.set_page_config(layout="wide")
-st.title("Customer Segmentation Dashboard")
+st.title("Hello! This is Customer Segmentation Dashboard")
+
+
+
 
 @st.cache_data
 def load_data():
